@@ -55,7 +55,7 @@ k = 0.10333220704574829
 b = 0
 
 ### [#####--EXPER-DATA--#####]
-Path = "D://Enviroment//LabaHERNYA//Pulse//ExperData//Pulse//Egor_calm.txt"
+Path = "D://"
 data = np.array(open(Path).read().split('\n'))
 data = [i.split(' ') for i in data]
 
